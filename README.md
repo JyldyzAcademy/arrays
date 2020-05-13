@@ -1,7 +1,13 @@
 # arrays
-Creating, Accessing, Editing Arrays, iterations
+Changes 
 
-import UIKit
+
+
+
+
+
+
+
 
 // Arrays - Массивы
 
@@ -19,14 +25,6 @@ var countries = ["Турция", "США", "Кыргызстан"]
 var oddNumbers = [1,3,5,7,9]
 
 
-// Доступ к элементам массива
-
-let visitedCountries = ["Турция", "США", "Кыргызстан"]
-
-print("Первым делом я полетел в \(visitedCountries[0])")
-print("После я побывал в \(visitedCountries[1])")
-print("И затем прилетел в \(visitedCountries[2])")
-//print("А еще я хочу побывать в \(visitedCountries[3])")    // ERROR: Index out of range
 
 
 // Добавление элементов в массив
@@ -115,12 +113,7 @@ let maxNumber = anyNumbers.max()
 let firstNumber = anyNumbers.first
 let lastNumber = anyNumbers.last
 
-anyNumbers.contains(3)
-anyNumbers.contains(22)
 
-anyNumbers.sort() // массив изменился
-
-var characters = ["c", "b", "a", "z", "x", "y"]
 
 
 let sortedCharacters = characters.sorted()
@@ -131,4 +124,3 @@ print(characters)  // не изменился
 for (index, country) in myVisitedCountries.enumerated() {
     print("\(index + 1) - \(country)")
 }
-
