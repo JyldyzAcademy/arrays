@@ -1,5 +1,9 @@
 # arrays
-Creating, Accessing, Editing Arrays, iterations
+VOT ZDES IZMENENIYA
+
+
+
+Create ARRAYS on Terminal.
 
 import UIKit
 
